@@ -50,32 +50,170 @@ export default function Home() {
               priority
             />
 
-            <Image
-              src="/phone.png"
-              alt="Hero image"
-              fill
-              className="object-contain translate-x-112 translate-y-3"
-              priority
-            />
+            <div className="w-full h-[45%] absolute mt-20">
 
-            <Image
-              src="/feather.png"
-              alt="Hero image"
-              fill
-              className="object-contain rotate-55 translate-x-112 translate-y-3"
-              priority
-            />
-            
+              <Image
+                src="/heroiPhone.png"
+                alt="Hero image"
+                fill
+                className="object-contain translate-x-113 translate-y-35"
+                priority
+              />
+
+            </div>
+
           </div>
-          
+
 
         </div>
 
       </div>
 
-      <div className="w-full">
+      <div className="w-full h-[550px] flex items-center p-5 gap-5 bg-[#131313]">
+
+        <div className="h-full w-[45%] relative">
+
+          <Image
+            src="/girlwal.png"
+            alt="Hero image"
+            fill
+            className="object-contain"
+            priority
+          />
+
+        </div>
+
+
+        <div className="h-full w-[55%] flex flex-col items-center justify-center gap-5">
+
+          <h1 className="text-2xl text-white">Powerful Web Applications</h1>
+          <p className="text-white/80 text-sm text-center w-[80%]">We design and develop fast, secure, and scalable web applications tailored to your business goals. From clean user interfaces to robust backend systems, every detail is crafted for performance and long-term growth.</p>
+
+        </div>
 
       </div>
+
+      <div className="w-full h-[550px] flex items-center p-5 gap-5">
+
+        <div className="h-full w-[55%] flex flex-col items-center justify-center gap-5">
+
+          <h1 className="text-2xl text-white">High-Performance Mobile Apps</h1>
+          <p className="text-white/80 text-sm text-center w-[80%]">We develop reliable, scalable, and user-friendly mobile applications tailored for Android and iOS. From intuitive UI to powerful backend integration, our apps are built for speed, security, and growth.</p>
+
+        </div>
+
+        <div className="h-[80%] w-[45%] relative">
+
+          <Image
+            src="/pho.png"
+            alt="Hero image"
+            fill
+            className="object-contain"
+            priority
+          />
+
+        </div>
+
+      </div>
+
+      <div className="w-full h-[550px] flex items-center p-5 gap-5 bg-[#131313]">
+
+        <div className="h-[90%] w-[45%] relative">
+
+          <Image
+            src="/Gaming.png"
+            alt="Hero image"
+            fill
+            className="object-contain"
+            priority
+          />
+
+        </div>
+
+
+        <div className="h-full w-[55%] flex flex-col items-center justify-center gap-5">
+
+          <h1 className="text-2xl text-white">Next-Gen Tablet Games</h1>
+          <p className="text-white/80 text-sm text-center w-[80%]">From casual to interactive gameplay, we build tablet games that are visually stunning, responsive, and optimized for performance across all tablet devices.</p>
+
+        </div>
+
+      </div>
+
+
+      <div className="w-full h-[550px] flex items-center p-5 gap-5">
+
+        <div className="h-full w-[55%] flex flex-col items-center justify-center gap-5">
+
+          <h1 className="text-2xl text-white">Engaging Mobile Game Development</h1>
+          <p className="text-white/80 text-sm text-center w-[80%]">We create high-quality mobile games with smooth gameplay, eye-catching visuals, and optimized performance. Built for Android and iOS to keep players engaged and coming back.</p>
+
+        </div>
+
+        <div className="h-[80%] w-[40%] relative">
+
+          <Image
+            src="/gamingM.png"
+            alt="Hero image"
+            fill
+            className="object-contain"
+            priority
+          />
+
+        </div>
+
+      </div>
+
+
+      <div className="w-full h-[550px] flex items-center p-5 gap-5 bg-[#131313]">
+
+        <div className="h-[75%] w-[50%] relative">
+
+          <Image
+            src="/TV.png"
+            alt="Hero image"
+            fill
+            className="object-contain"
+            priority
+          />
+
+        </div>
+
+        <div className="h-full w-[55%] flex flex-col items-center justify-center gap-5">
+
+          <h1 className="text-2xl text-white">Smart TV App Development</h1>
+          <p className="text-white/80 text-sm text-center w-[80%]">We build fast, intuitive, and visually rich TV applications optimized for large screens, remote navigation, and smooth performance across Smart TV platforms.</p>
+
+        </div>
+
+      </div>
+
+
+      
+      <div className="w-full h-[550px] flex items-center p-5 gap-5">
+
+        <div className="h-full w-[55%] flex flex-col items-center justify-center gap-5">
+
+          <h1 className="text-2xl text-white">Apps for Wearables</h1>
+          <p className="text-white/80 text-sm text-center w-[80%]">We build lightweight, fast, and intuitive smartwatch applications designed for quick interactions, real-time data, and seamless performance on wearable devices.</p>
+
+        </div>
+
+        <div className="h-[90%] w-[45%] relative">
+
+          <Image
+            src="/watch.png"
+            alt="Hero image"
+            fill
+            className="object-contain"
+            priority
+          />
+
+        </div>
+
+      </div>
+
+
 
       <Footer />
 
