@@ -346,6 +346,88 @@ export default function Products() {
 
       <hr className="h-[1px] bg-white/30 my-20 mx-10 border-0" />
 
+      <div className="w-full flex flex-col gap-5">
+
+        <div className="px-10 flex flex-col gap-1">
+          <h1 className="text-white text-xl">Smart Watch Apps</h1>
+          <p className="text-white/80">Apps for the next generation of smart watch.</p>
+        </div>
+
+        <div className="w-full h-[250px] gap-10 grid grid-cols-4 px-10 my-10">
+
+          <div className="w-full h-full relative">
+
+            <Image
+              src="/ProductsImg/watch1.jpg"
+              alt="Hero image"
+              fill
+              className="object-fill rounded-lg cursor-pointer transition-transform duration-300 ease-in-out hover:scale-102"
+              priority
+            />
+
+          </div>
+
+          <div className="w-full h-full relative">
+
+            <Image
+              src="/ProductsImg/watch2.jpg"
+              alt="Hero image"
+              fill
+              className="object-fill rounded-lg cursor-pointer transition-transform duration-300 ease-in-out hover:scale-102"
+              priority
+            />
+
+          </div>
+
+          <div className="w-full h-full relative">
+
+            <Image
+              src="/ProductsImg/watch3.jpg"
+              alt="Hero image"
+              fill
+              className="object-fill rounded-lg cursor-pointer transition-transform duration-300 ease-in-out hover:scale-102 border-2 border-green-600"
+              priority
+            />
+
+          </div>
+
+          <div className="w-full h-full relative">
+
+            <Image
+              src="/ProductsImg/watch4.jpg"
+              alt="Hero image"
+              fill
+              className="object-fill rounded-lg cursor-pointer transition-transform duration-300 ease-in-out hover:scale-102"
+              priority
+            />
+
+          </div>
+
+        </div>
+
+        <h1 className="px-10 font-medium text-xl text-white">What we develop</h1>
+        <div className="px-10">
+          <ul className="list-disc pl-6 flex flex-col gap-4">
+            <li className="text-white/80">Fitness & Health Apps</li>
+            <li className="text-white/80">Business & Productivity Apps</li>
+            <li className="text-white/80">E-commerce & Order Tracking Apps</li>
+            <li className="text-white/80">Alerts & Notification Apps</li>
+            <li className="text-white/80">Location & Tracking Apps</li>
+            <li className="text-white/80">Media & Entertainment Apps</li>
+          </ul>
+        </div>
+
+        <h1 className="px-10 font-medium text-xl text-white mt-10">Tech</h1>
+        <div className="px-10 mb-20">
+          <ul className="list-disc pl-6 flex gap-10">
+            <li className="text-white/80">Flutter</li>
+            <li className="text-white/80">Kotlin</li>
+            <li className="text-white/80">Swift</li>
+          </ul>
+        </div>
+
+      </div>
+
 
       <Footer />
 
