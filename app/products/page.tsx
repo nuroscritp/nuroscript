@@ -135,7 +135,7 @@ export default function Products() {
           <div className="w-full h-full relative">
 
             <Image
-              src="/ProductsImg/appThre.jpg"
+              src="/ProductsImg/appThreee.jpg"
               alt="Hero image"
               fill
               className="object-fill rounded-lg cursor-pointer transition-transform duration-300 ease-in-out hover:scale-102"
