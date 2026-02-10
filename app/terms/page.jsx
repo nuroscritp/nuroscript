@@ -18,7 +18,7 @@ export default function Terms() {
 
         <hr className="border-t border-gray-300 my-6" />
 
-        <ol className="text-white list-decimal flex flex-col gap-10">
+        <ol className="text-white list-decimal flex flex-col gap-10 px-5">
 
           <li>
             <div className="flex flex-col gap-4">
