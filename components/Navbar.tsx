@@ -32,7 +32,7 @@ export default function Navbar() {
   return (
     <>
       {/* ================= NAVBAR ================= */}
-      <nav className="w-full px-10 py-4 flex items-center justify-between bg-black">
+      <nav className="w-full px-5 lg:px-10 py-4 flex items-center justify-between bg-black">
         {/* Logo */}
         <h1 className="text-white text-xl lg:text-2xl font-medium">
           nuroscript
