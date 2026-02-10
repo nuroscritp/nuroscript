@@ -5,7 +5,7 @@ export default function Footer() {
         <>
 
             <div className="w-full bg-[#4f4f4f]">
-                <div className="w-full h-[70px] flex items-center px-10">
+                <div className="w-full py-5 flex flex-col gap-5 lg:flex-row lg:items-center px-10">
 
                     {/* Left */}
                     <div className="flex-1">
@@ -13,7 +13,7 @@ export default function Footer() {
                     </div>
 
                     {/* Center */}
-                    <div className="flex-1 flex items-center justify-center gap-8">
+                    <div className="flex-1 flex flex-col lg:items-center justify-center gap-5 lg:flex-row lg:gap-8">
                         <span className="text-sm text-white/80">
                             nuroscript@gmail.com
                         </span>
@@ -37,7 +37,7 @@ export default function Footer() {
                     </div>
 
                     {/* Right */}
-                    <div className="flex-1 flex justify-end gap-5">
+                    <div className="flex-1 flex flex-col lg:flex-row justify-end gap-5 lg:items-center">
                         <Link href="/terms" className="text-sm text-white/80 hover:text-white">
                             Terms & Conditions
                         </Link>
