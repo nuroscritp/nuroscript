@@ -4,14 +4,14 @@ export default function Terms() {
   return (
     <>
 
-      <div className="px-20 my-10 flex flex-col gap-5">
+      <div className=" px-10 lg:px-20 my-10 flex flex-col gap-5">
 
-        <div className="flex items-center justify-between mb-5">
-          <h1 className="text-white text-2xl font-medium">Terms and Conditions</h1>
+        <div className="flex flex-col gap-2 lg:flex-row items-center justify-between mb-5">
+          <h1 className="text-white text-xl lg:text-2xl font-medium">Terms and Conditions</h1>
           <p className="text-white/80 text-sm">Last updated: [01/01/2026]</p>
         </div>
 
-        <h2 className="text-white/80 text-xl">Welcome to <span className="text-white"> nuroscript</span></h2>
+        <h2 className="text-white/80 lg:text-xl">Welcome to <span className="text-white"> nuroscript</span></h2>
 
         <p className="text-white/80">nuroscript is a software development company that provides services including, but not limited to, web development, mobile application development, software solutions, maintenance, and related IT services.</p>
         <p className="text-white/80">By accessing our website or engaging our services, you agree to be bound by these Terms and Conditions (“Terms”). If you do not agree, please do not use our website or services.</p>
