@@ -11,7 +11,7 @@ export default function Terms() {
           <p className="text-white/80 text-sm">Last updated: [01/01/2026]</p>
         </div>
 
-        <h2 className="text-white/80 lg:text-xl">Welcome to <span className="text-white"> nuroscript</span></h2>
+        <h2 className="text-white/80 text-xl">Welcome to <span className="text-white"> nuroscript</span></h2>
 
         <p className="text-white/80">nuroscript is a software development company that provides services including, but not limited to, web development, mobile application development, software solutions, maintenance, and related IT services.</p>
         <p className="text-white/80">By accessing our website or engaging our services, you agree to be bound by these Terms and Conditions (“Terms”). If you do not agree, please do not use our website or services.</p>
@@ -146,12 +146,12 @@ export default function Terms() {
         <hr className="border-t border-gray-300 my-6" />
 
         <div className="flex flex-col gap-4">
-          <h1 className="text-white text-xl font-medium">Contact Us</h1>
+          <h1 className="text-white lg:text-xl font-medium">Contact Us</h1>
           <p className="text-white/80">For any questions regarding these Terms and Conditions, please contact:</p>
         </div>
 
         <div className="flex flex-col gap-4">
-          <h1 className="text-white text-xl font-medium">nuroscript</h1>
+          <h1 className="text-white lg:text-xl font-medium">nuroscript</h1>
           <p className="text-white/80">Email: nuroscript@gmail.com</p>
         </div>
 
