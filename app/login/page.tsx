@@ -2,7 +2,7 @@ export default function Login() {
   return (
     <>
 
-      <div className="w-full h-[calc(100vh-8rem)] flex flex-col items-center justify-center p-10">
+      <div className="w-full h-[calc(100vh-8rem)] flex flex-col items-center justify-center p-20 lg:p-10">
 
         <h1 className="text-3xl text-white"><span className="text-white/80">Welcome to</span> nuroscript</h1>
         <h1 className="text-3xl text-white mt-10">Login</h1>
