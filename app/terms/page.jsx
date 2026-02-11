@@ -4,7 +4,7 @@ export default function Terms() {
   return (
     <>
 
-      <div className=" px-5 lg:px-20 my-10 flex flex-col gap-5">
+      <div className=" px-10 lg:px-20 my-10 flex flex-col gap-5">
 
         <div className="flex flex-col gap-2 lg:flex-row items-center justify-between mb-5">
           <h1 className="text-white text-xl lg:text-2xl font-medium">Terms and Conditions</h1>

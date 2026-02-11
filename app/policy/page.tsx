@@ -137,12 +137,12 @@ export default function Policy() {
         <hr className="border-t border-gray-300 my-6" />
 
         <div className="flex flex-col gap-4">
-          <h1 className="text-white text-xl font-medium">Contact Us</h1>
+          <h1 className="text-white lg:text-xl font-medium">Contact Us</h1>
           <p className="text-white/80">If you have any questions or concerns about this Privacy Policy, please contact:</p>
         </div>
 
         <div className="flex flex-col gap-4">
-          <h1 className="text-white text-xl font-medium">nuroscript</h1>
+          <h1 className="text-white lg:text-xl font-medium">nuroscript</h1>
           <p className="text-white/80">Email: nuroscript@gmail.com</p>
         </div>
 
