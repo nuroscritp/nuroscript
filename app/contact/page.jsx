@@ -6,7 +6,7 @@ export default function Contact() {
 
       <div className="flex justify-center items-center mt-10 flex-col gap-2">
         <h1 className="text-white text-2xl lg:text-3xl">Get in touch with our team</h1>
-        <p className="text-white/80 text-sm  w-[80%] lg:w-[35%] text-center">Discuss your ideas with us. We deliver clear, practical solutions.</p>
+        <p className="text-white/80 text-sm  w-[70%] lg:w-[35%] text-center">Discuss your ideas with us. We deliver clear, practical solutions.</p>
       </div>
 
       <div className="relative w-full h-[600px]">
