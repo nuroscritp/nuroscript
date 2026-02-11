@@ -9,7 +9,7 @@ export default function Contact() {
         <p className="text-white/80 text-sm  w-[70%] lg:w-[35%] text-center">Discuss your ideas with us. We deliver clear, practical solutions.</p>
       </div>
 
-      <div className="relative w-full h-[600px]">
+      <div className="relative w-full h-[420px] lg:h-[600px]">
 
         <Image
           src="/dmap.png"
