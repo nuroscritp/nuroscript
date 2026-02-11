@@ -44,29 +44,29 @@ export default function About() {
         <p className="text-white/80">Each product or service is crafted through:</p>
         <div>
           <ul className="list-disc pl-6 flex flex-col gap-4">
-            <li className="text-white/80">Careful understanding of real-world requirements</li>
-            <li className="text-white/80">Clean, maintainable, and scalable code practices</li>
-            <li className="text-white/80">Continuous testing, iteration, and improvement</li>
-            <li className="text-white/80">Transparent communication and collaboration</li>
+            <li className="text-white/80 text-sm">Careful understanding of real-world requirements</li>
+            <li className="text-white/80 text-sm">Clean, maintainable, and scalable code practices</li>
+            <li className="text-white/80 text-sm">Continuous testing, iteration, and improvement</li>
+            <li className="text-white/80 text-sm">Transparent communication and collaboration</li>
           </ul>
         </div>
-        <p className="text-white/80">Our approach ensures that what we build today continues to perform tomorrow.</p>
+        <p className="text-white/80 text-sm">Our approach ensures that what we build today continues to perform tomorrow.</p>
 
         <h1 className="text-xl lg:text-2xl font-medium mt-10">Why nuroscript</h1>
         <div>
           <ul className="list-disc pl-6 flex flex-col gap-4">
-            <li className="text-white/80"><span className="text-white font-medium">Clarity over complexity</span> – simple solutions for complex problems</li>
-            <li className="text-white/80"><span className="text-white font-medium">Quality-first mindset</span> – performance, security, and reliability matter</li>
-            <li className="text-white/80"><span className="text-white font-medium">Future-ready thinking</span> – systems designed to scale and evolve</li>
-            <li className="text-white/80"><span className="text-white font-medium">Human-focused design</span> – technology that serves people, not the other way around</li>
+            <li className="text-white/80 text-sm"><span className="text-white font-medium">Clarity over complexity</span> – simple solutions for complex problems</li>
+            <li className="text-white/80 text-sm"><span className="text-white font-medium">Quality-first mindset</span> – performance, security, and reliability matter</li>
+            <li className="text-white/80 text-sm"><span className="text-white font-medium">Future-ready thinking</span> – systems designed to scale and evolve</li>
+            <li className="text-white/80 text-sm"><span className="text-white font-medium">Human-focused design</span> – technology that serves people, not the other way around</li>
           </ul>
         </div>
 
         <h1 className="text-xl lg:text-2xl font-medium mt-10">Our Philosophy</h1>
-        <p className="text-white/80">We believe great technology is built on clarity, purpose, and responsibility. Every solution we create is guided by thoughtful design, strong engineering principles, and a deep respect for the people who use it. We focus on building systems that are intuitive, reliable, and adaptable — technology that solves real problems and continues to deliver value as needs evolve.</p>
+        <p className="text-white/80 text-sm">We believe great technology is built on clarity, purpose, and responsibility. Every solution we create is guided by thoughtful design, strong engineering principles, and a deep respect for the people who use it. We focus on building systems that are intuitive, reliable, and adaptable — technology that solves real problems and continues to deliver value as needs evolve.</p>
 
         <h1 className="text-xl lg:text-2xl font-medium mt-10">Our Commitment</h1>
-        <p className="text-white/80">nuroscript is committed to building technology that is responsible, efficient, and impactful. We value trust, long-term partnerships, and continuous learning — both within our team and in the solutions we deliver.</p>
+        <p className="text-white/80 text-sm">nuroscript is committed to building technology that is responsible, efficient, and impactful. We value trust, long-term partnerships, and continuous learning — both within our team and in the solutions we deliver.</p>
 
       </div>
 
