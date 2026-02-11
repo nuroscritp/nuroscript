@@ -4,7 +4,7 @@ export default function About() {
   return (
     <>
 
-      <div className="text-white px-30 py-15 flex flex-col gap-5">
+      <div className="text-white px-10 lg:px-20 py-15 flex flex-col gap-5">
         <h1 className="text-2xl font-medium">About Us</h1>
         <p className="text-white/80">nuroscript is a technology-driven platform built with one clear purpose: to simplify complexity and transform ideas into powerful digital solutions.
           We believe that technology should feel intuitive, intelligent, and human-centric — not overwhelming. At nuroscript, we combine innovation, precision, and deep technical thinking to create products and services that help individuals, startups, and businesses grow in a fast-changing digital world.</p>
