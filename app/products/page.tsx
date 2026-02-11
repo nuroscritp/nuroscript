@@ -272,9 +272,9 @@ export default function Products() {
           <p className="text-white/80">Engaging games with smooth performance and addictive UX.</p>
         </div>
 
-        <div className="w-full lg:h-[240px] gap-10 grid grid-rows-4 lg:grid-cols-4 px-10 my-10">
+        <div className="w-full lg:h-[220px] gap-10 grid grid-rows-4 lg:grid-cols-4 px-10 my-10">
 
-          <div className="w-full h-[240px] relative">
+          <div className="w-full h-[220px] relative">
 
             <Image
               src="/ProductsImg/game1.jpg"
@@ -286,7 +286,7 @@ export default function Products() {
 
           </div>
 
-          <div className="w-full h-[240px] relative">
+          <div className="w-full h-[220px] relative">
 
             <Image
               src="/ProductsImg/game2.jpg"
@@ -298,7 +298,7 @@ export default function Products() {
 
           </div>
 
-          <div className="w-full h-[240px] relative">
+          <div className="w-full h-[220px] relative">
 
             <Image
               src="/ProductsImg/game3.jpg"
@@ -310,7 +310,7 @@ export default function Products() {
 
           </div>
 
-          <div className="w-full h-[240px] relative">
+          <div className="w-full h-[220px] relative">
 
             <Image
               src="/ProductsImg/game4.jpg"
