@@ -8,14 +8,14 @@ export default function Work() {
     <>
       {/* Heading */}
       <div className="flex justify-center items-center mt-10 mb-16 flex-col gap-2">
-        <h1 className="text-white text-3xl">Our Work</h1>
-        <p className="text-white/80 text-sm w-[35%] text-center">
+        <h1 className="text-white text-2xl lg:text-3xl">Our Work</h1>
+        <p className="text-white/80 text-sm w-[50%] lg:w-[35%] text-center">
           Software solutions crafted for performance and scale.
         </p>
       </div>
 
       {/* Work Grid */}
-      <div className="max-w-7xl mb-10 mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
+      <div className="max-w-7xl mb-10 mx-auto grid grid-cols-1 lg:grid-cols-2 gap-10 items-center px-10 py-5 lg:p-1">
 
         {/* Logitech */}
         <VideoThumbnail videoId="lOs7Num3riU" />
