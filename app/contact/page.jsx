@@ -41,7 +41,7 @@ export default function Contact() {
         <div className="w-full lg:w-[50%] flex flex-col items-center justify-center gap-2">
 
             <h1 className="text-2xl lg:text-3xl text-white">nuroscript</h1>
-            <p className="text-sm text-white/80 w-[50%] text-center">We believe great technology is built on clarity, purpose, and responsibility.</p>
+            <p className="text-sm text-white/80 w-[80%] lg:w-[50%] text-center">We believe great technology is built on clarity, purpose, and responsibility.</p>
             <div className="flex items-center gap-5 mt-10">
               <p className="text-sm text-white">nuroscript@gmail.com</p>
             </div>
