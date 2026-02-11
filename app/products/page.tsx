@@ -6,8 +6,8 @@ export default function Products() {
     <>
 
       <div className="flex justify-center items-center my-10 flex-col gap-2">
-        <h1 className="text-white text-3xl">Our Products</h1>
-        <p className="text-white/80 text-sm w-[35%] text-center">Powerful digital products built to scale your business.</p>
+        <h1 className="text-white text-2xl lg:text-3xl">Our Products</h1>
+        <p className="text-white/80 text-sm w-[50%] lg:w-[35%] text-center">Powerful digital products built to scale your business.</p>
       </div>
 
       <div className="w-full flex flex-col gap-5">
@@ -17,9 +17,9 @@ export default function Products() {
           <p className="text-white/80">Custom-built web apps tailored to your business needs.</p>
         </div>
 
-        <div className="w-full h-[240px] gap-10 grid grid-cols-4 px-10 my-10">
+        <div className="w-full lg:h-[240px] gap-10 grid grid-rows-4 lg:grid-cols-4 px-10 my-10">
 
-          <div className="w-full h-full relative">
+          <div className="w-full relative h-[240px]">
 
             <Image
               src="/ProductsImg/web1.jpg"
@@ -31,7 +31,7 @@ export default function Products() {
 
           </div>
 
-          <div className="w-full h-full relative">
+          <div className="w-full relative h-[240px]">
 
             <Image
               src="/ProductsImg/web2.jpg"
@@ -43,7 +43,7 @@ export default function Products() {
 
           </div>
 
-          <div className="w-full h-full relative">
+          <div className="w-full h-[240px] relative">
 
             <Image
               src="/ProductsImg/web3.jpg"
@@ -55,7 +55,7 @@ export default function Products() {
 
           </div>
 
-          <div className="w-full h-full relative">
+          <div className="w-full h-[240px] relative">
 
             <Image
               src="/ProductsImg/webFour.jpg"
@@ -82,7 +82,7 @@ export default function Products() {
 
         <h1 className="px-10 font-medium text-xl text-white mt-10">Tech</h1>
         <div className="px-10">
-          <ul className="list-disc pl-6 flex gap-10">
+          <ul className="list-disc pl-6 flex flex-col lg:flex-row gap-5 lg:gap-10">
             <li className="text-white/80">React</li>
             <li className="text-white/80">Next.js</li>
             <li className="text-white/80">Node.js</li>
@@ -106,9 +106,9 @@ export default function Products() {
           <p className="text-white/80">High-performance mobile apps with beautiful UI & smooth UX.</p>
         </div>
 
-        <div className="w-full h-[300px] gap-10 grid grid-cols-4 px-10 my-10">
+        <div className="w-full lg:h-[300px] gap-10 grid grid-rows-4 lg:grid-cols-4 px-10 my-10">
 
-          <div className="w-full h-full relative">
+          <div className="w-full h-[300px] relative">
 
             <Image
               src="/ProductsImg/app1.jpg"
@@ -120,7 +120,7 @@ export default function Products() {
 
           </div>
 
-          <div className="w-full h-full relative">
+          <div className="w-full h-[300px] relative">
 
             <Image
               src="/ProductsImg/app2.jpg"
@@ -132,7 +132,7 @@ export default function Products() {
 
           </div>
 
-          <div className="w-full h-full relative">
+          <div className="w-full h-[300px] relative">
 
             <Image
               src="/ProductsImg/appThreee.jpg"
@@ -144,7 +144,7 @@ export default function Products() {
 
           </div>
 
-          <div className="w-full h-full relative">
+          <div className="w-full h-[300px] relative">
 
             <Image
               src="/ProductsImg/appFr.jpg"
@@ -171,7 +171,7 @@ export default function Products() {
 
         <h1 className="px-10 font-medium text-xl text-white mt-10">Tech</h1>
         <div className="px-10">
-          <ul className="list-disc pl-6 flex gap-10">
+          <ul className="list-disc pl-6 flex flex-col lg:flex-row gap-5 lg:gap-10">
             <li className="text-white/80">Flutter</li>
             <li className="text-white/80">Kotlin</li>
             <li className="text-white/80">Swift</li>
@@ -192,9 +192,9 @@ export default function Products() {
           <p className="text-white/80">Robust desktop software for internal and enterprise use.</p>
         </div>
 
-        <div className="w-full h-[240px] gap-10 grid grid-cols-4 px-10 my-10">
+        <div className="w-full lg:h-[240px] gap-10 grid grid-rows-4 lg:grid-cols-4 px-10 my-10">
 
-          <div className="w-full h-full relative">
+          <div className="w-full h-[240px] relative">
 
             <Image
               src="/ProductsImg/desk1.jpg"
@@ -206,7 +206,7 @@ export default function Products() {
 
           </div>
 
-          <div className="w-full h-full relative">
+          <div className="w-full h-[240px] relative">
 
             <Image
               src="/ProductsImg/desk2.jpg"
@@ -218,7 +218,7 @@ export default function Products() {
 
           </div>
 
-          <div className="w-full h-full relative">
+          <div className="w-full h-[240px] relative">
 
             <Image
               src="/ProductsImg/desk3.jpg"
@@ -230,7 +230,7 @@ export default function Products() {
 
           </div>
 
-          <div className="w-full h-full relative">
+          <div className="w-full h-[240px] relative">
 
             <Image
               src="/ProductsImg/desk4.jpg"
@@ -255,7 +255,7 @@ export default function Products() {
 
         <h1 className="px-10 font-medium text-xl text-white mt-10">Platforms</h1>
         <div className="px-10">
-          <ul className="list-disc pl-6 flex gap-10">
+          <ul className="list-disc pl-6 flex flex-col lg:flex-row gap-5 lg:gap-10">
             <li className="text-white/80">Windows</li>
             <li className="text-white/80">macOS</li>
           </ul>
@@ -272,9 +272,9 @@ export default function Products() {
           <p className="text-white/80">Engaging games with smooth performance and addictive UX.</p>
         </div>
 
-        <div className="w-full h-[210px] gap-10 grid grid-cols-4 px-10 my-10">
+        <div className="w-full lg:h-[240px] gap-10 grid grid-rows-4 lg:grid-cols-4 px-10 my-10">
 
-          <div className="w-full h-full relative">
+          <div className="w-full h-[240px] relative">
 
             <Image
               src="/ProductsImg/game1.jpg"
@@ -286,7 +286,7 @@ export default function Products() {
 
           </div>
 
-          <div className="w-full h-full relative">
+          <div className="w-full h-[240px] relative">
 
             <Image
               src="/ProductsImg/game2.jpg"
@@ -298,7 +298,7 @@ export default function Products() {
 
           </div>
 
-          <div className="w-full h-full relative">
+          <div className="w-full h-[240px] relative">
 
             <Image
               src="/ProductsImg/game3.jpg"
@@ -310,7 +310,7 @@ export default function Products() {
 
           </div>
 
-          <div className="w-full h-full relative">
+          <div className="w-full h-[240px] relative">
 
             <Image
               src="/ProductsImg/game4.jpg"
@@ -335,7 +335,7 @@ export default function Products() {
 
         <h1 className="px-10 font-medium text-xl text-white mt-10">Platforms</h1>
         <div className="px-10">
-          <ul className="list-disc pl-6 flex gap-10">
+          <ul className="list-disc pl-6 flex flex-col lg:flex-row gap-5 lg:gap-10">
             <li className="text-white/80">Android</li>
             <li className="text-white/80">iOS</li>
             <li className="text-white/80">Web</li>
@@ -353,9 +353,9 @@ export default function Products() {
           <p className="text-white/80">Apps for the next generation of smart watch.</p>
         </div>
 
-        <div className="w-full h-[250px] gap-10 grid grid-cols-4 px-10 my-10">
+        <div className="w-full lg:h-[250px] gap-10 grid grid-rows-4 lg:grid-cols-4 px-10 my-10">
 
-          <div className="w-full h-full relative">
+          <div className="w-full h-[250px] relative">
 
             <Image
               src="/ProductsImg/watch1.jpg"
@@ -367,7 +367,7 @@ export default function Products() {
 
           </div>
 
-          <div className="w-full h-full relative">
+          <div className="w-full h-[250px] relative">
 
             <Image
               src="/ProductsImg/watch2.jpg"
@@ -379,7 +379,7 @@ export default function Products() {
 
           </div>
 
-          <div className="w-full h-full relative">
+          <div className="w-full h-[250px] relative">
 
             <Image
               src="/ProductsImg/watch3.jpg"
@@ -391,7 +391,7 @@ export default function Products() {
 
           </div>
 
-          <div className="w-full h-full relative">
+          <div className="w-full h-[250px] relative">
 
             <Image
               src="/ProductsImg/watch4.jpg"
@@ -419,7 +419,7 @@ export default function Products() {
 
         <h1 className="px-10 font-medium text-xl text-white mt-10">Tech</h1>
         <div className="px-10 mb-20">
-          <ul className="list-disc pl-6 flex gap-10">
+          <ul className="list-disc pl-6 flex flex-col lg:flex-row gap-5 lg:gap-10">
             <li className="text-white/80">Flutter</li>
             <li className="text-white/80">Kotlin</li>
             <li className="text-white/80">Swift</li>
