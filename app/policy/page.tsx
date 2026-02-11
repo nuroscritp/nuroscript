@@ -4,10 +4,10 @@ export default function Policy() {
   return (
     <>
 
-      <div className="px-20 my-10 flex flex-col gap-5">
+      <div className="px-10 lg:px-20 my-10 flex flex-col gap-5">
 
-        <div className="flex items-center justify-between mb-5">
-          <h1 className="text-white text-2xl font-medium">Privacy Policy</h1>
+        <div className="flex flex-col gap-2 lg:flex-row items-center justify-between mb-5">
+          <h1 className="text-white text-xl lg:text-2xl font-medium">Privacy Policy</h1>
           <p className="text-white/80 text-sm">Last updated: [01/01/2026]</p>
         </div>
 
