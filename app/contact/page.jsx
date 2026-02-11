@@ -5,7 +5,7 @@ export default function Contact() {
     <>
 
       <div className="flex justify-center items-center mt-10 flex-col gap-2">
-        <h1 className="text-white text-3xl">Get in touch with our team</h1>
+        <h1 className="text-white text-2xl lg:text-3xl">Get in touch with our team</h1>
         <p className="text-white/80 text-sm w-[35%] text-center">Discuss your ideas with us. We deliver clear, practical solutions.</p>
       </div>
 
@@ -36,11 +36,11 @@ export default function Contact() {
 
       </div>
 
-      <div className="w-full flex items-center px-10 gap-30">
+      <div className="w-full flex flex-col lg:flex-row items-center px-10 gap-10 lg:gap-30">
 
-        <div className="w-[50%] flex flex-col items-center justify-center gap-2">
+        <div className="w-full lg:w-[50%] flex flex-col items-center justify-center gap-2">
 
-            <h1 className="text-3xl text-white">nuroscript</h1>
+            <h1 className="text-2xl lg:text-3xl text-white">nuroscript</h1>
             <p className="text-sm text-white/80 w-[50%] text-center">We believe great technology is built on clarity, purpose, and responsibility.</p>
             <div className="flex items-center gap-5 mt-10">
               <p className="text-sm text-white">nuroscript@gmail.com</p>
@@ -48,13 +48,13 @@ export default function Contact() {
             
         </div>
 
-        <div className="w-[50%]">
-          <div className="flex flex-col gap-2 p-10">
-            <h1 className="text-white text-3xl">Contact Us</h1>
-            <p className="text-white/80 text-sm w-[35%]">Our friendly team would love to hear from you!</p>
+        <div className="w-full lg:w-[50%]">
+          <div className="flex flex-col gap-2 py-10 lg:px-10" >
+            <h1 className="text-white text-2xl lg:text-3xl">Contact Us</h1>
+            <p className="text-white/80 text-sm w-[50%] lg:w-[35%]">Our friendly team would love to hear from you!</p>
           </div>
 
-          <div className="flex flex-col gap-10 px-10 mb-10">
+          <div className="flex flex-col gap-5 lg:gap-10 lg:px-10 mb-10 w-full">
             <div className="flex gap-5 items-center w-full">
               <input className="w-full px-5 py-2.5 border-2 border-white text-white/80 rounded-lg text-sm" type="text" placeholder="First name" />
               <input className="w-full px-5 py-2.5 border-2 border-white text-white/80 rounded-lg text-sm" type="text" placeholder="Last name" />
