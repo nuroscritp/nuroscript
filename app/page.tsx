@@ -91,9 +91,9 @@ export default function Home() {
 
       </div>
 
-      <div className="w-full h-[550px] flex flex-col lg:flex-row items-center p-5 lg:gap-5 bg-[#131313]">
+      <div className="w-full h-[520px] lg:h-[550px] flex flex-col lg:flex-row items-center p-5 lg:gap-5 bg-[#131313]">
 
-        <div className="h-[70%] lg:h-[90%] w-[95%] lg:w-[45%] relative">
+        <div className="h-[70%] lg:h-[90%] w-[100%] lg:w-[45%] relative">
 
           <Image
             src="/Gaming.png"
