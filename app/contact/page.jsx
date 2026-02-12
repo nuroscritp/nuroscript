@@ -9,30 +9,15 @@ export default function Contact() {
         <p className="text-white/80 text-sm  w-[70%] lg:w-[35%] text-center">Discuss your ideas with us. We deliver clear, practical solutions.</p>
       </div>
 
-      <div className="relative w-full h-[420px] lg:h-[600px]">
+      <div className="relative w-full h-[500px] lg:h-[600px] lg:mt-10">
 
         <Image
-          src="/dmap.png"
+          src="/world.png"
           alt="Map image"
           fill
-          className="object-contain"
+          className="object-contain px-10"
           priority
         />
-
-        <div className="dot india group">
-          <span className="tooltip">India · HQ</span>
-        </div>
-
-        <div className="dot usa group">
-          <span className="tooltip">USA · Office</span>
-        </div>
-
-        <div className="dot europe group">
-          <span className="tooltip">Europe · Partner</span>
-        </div>
-
-        {/* <div className="w-[7px] h-[7px] bg-blue-600 rounded-full translate-x-237 translate-y-67"></div> */}
-        {/* <div className="w-[8px] h-[8px] bg-blue-600 rounded-full translate-x-102 translate-y-40"></div> */}
 
       </div>
 
