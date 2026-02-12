@@ -106,7 +106,7 @@ export default function Products() {
           <p className="text-white/80">High-performance mobile apps with beautiful UI & smooth UX.</p>
         </div>
 
-        <div className="w-full lg:h-[300px] gap-10 grid grid-rows-4 lg:grid-cols-4 px-10 my-10">
+        <div className="w-full lg:h-[300px] gap-10 grid grid-rows-4 lg:grid-cols-4 px-5 my-10">
 
           <div className="w-full h-[300px] relative">
 
@@ -192,7 +192,7 @@ export default function Products() {
           <p className="text-white/80">Robust desktop software for internal and enterprise use.</p>
         </div>
 
-        <div className="w-full lg:h-[240px] gap-10 grid grid-rows-4 lg:grid-cols-4 px-10 my-10">
+        <div className="w-full lg:h-[240px] gap-10 grid grid-rows-4 lg:grid-cols-4 px-5 my-10">
 
           <div className="w-full h-[240px] relative">
 
@@ -272,7 +272,7 @@ export default function Products() {
           <p className="text-white/80">Engaging games with smooth performance and addictive UX.</p>
         </div>
 
-        <div className="w-full lg:h-[220px] gap-10 grid grid-rows-4 lg:grid-cols-4 px-10 my-10">
+        <div className="w-full lg:h-[220px] gap-10 grid grid-rows-4 lg:grid-cols-4 px-5 my-10">
 
           <div className="w-full h-[220px] relative">
 
@@ -353,7 +353,7 @@ export default function Products() {
           <p className="text-white/80">Apps for the next generation of smart watch.</p>
         </div>
 
-        <div className="w-full lg:h-[250px] gap-10 grid grid-rows-4 lg:grid-cols-4 px-10 my-10">
+        <div className="w-full lg:h-[250px] gap-10 grid grid-rows-4 lg:grid-cols-4 px-5 my-10">
 
           <div className="w-full h-[250px] relative">
 
