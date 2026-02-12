@@ -8,7 +8,7 @@ export default function Home() {
 
       <div className="w-full h-[300px] lg:h-[600px] px-10 lg:px-30 flex flex-col lg:flex-row gap-5 items-center">
 
-        <div className="flex flex-col gap-5 w-full mt-10 lg:w-[50%] ">
+        <div className="flex flex-col gap-5 w-full mt-10 mb-5 lg:mb-0 lg:w-[50%] ">
           <h1 className="font-medium text-2xl lg:text-4xl bg-gradient-to-r from-purple-500 to-blue-500 bg-clip-text text-transparent">
             We build modern web & mobile apps
           </h1>
