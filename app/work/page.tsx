@@ -15,7 +15,7 @@ export default function Work() {
       </div>
 
       {/* Work Grid */}
-      <div className="max-w-7xl mb-10 mx-auto grid grid-cols-1 lg:grid-cols-2 gap-10 items-center px-10 py-5 lg:p-1">
+      <div className="max-w-7xl mb-10 mx-auto grid grid-cols-1 lg:grid-cols-2 gap-10 items-center px-5 py-5 lg:p-1">
 
         {/* Logitech */}
         <VideoThumbnail videoId="lOs7Num3riU" />

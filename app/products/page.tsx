@@ -17,7 +17,7 @@ export default function Products() {
           <p className="text-white/80">Custom-built web apps tailored to your business needs.</p>
         </div>
 
-        <div className="w-full lg:h-[240px] gap-10 grid grid-rows-4 lg:grid-cols-4 px-10 my-10">
+        <div className="w-full lg:h-[240px] gap-10 grid grid-rows-4 lg:grid-cols-4 px-5 my-10">
 
           <div className="w-full relative h-[240px]">
 
