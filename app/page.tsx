@@ -32,38 +32,14 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="relative w-[50%] h-full hidden lg:block">
+        <div className="relative w-[55%] h-full hidden lg:block">
           <Image
-            src="/mac.png"
+            src="/HeroBack.png"
             alt="Hero image"
             fill
             className="object-contain"
             priority
           />
-
-          <div className="relative w-[35%] h-full">
-            <Image
-              src="/feather.png"
-              alt="Hero image"
-              fill
-              className="object-contain rotate-55 translate-x-50 translate-y-5"
-              priority
-            />
-
-            <div className="w-full h-[45%] absolute mt-20">
-
-              <Image
-                src="/heroiPhone.png"
-                alt="Hero image"
-                fill
-                className="object-contain translate-x-113 translate-y-35"
-                priority
-              />
-
-            </div>
-
-          </div>
-
 
         </div>
 
