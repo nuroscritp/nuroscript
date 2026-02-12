@@ -164,9 +164,9 @@ export default function Home() {
 
 
       
-      <div className="w-full h-[560px] lg:h-[550px] pb-5 lg:pb-0 flex flex-col lg:flex-row items-center p-5 gap-5">
+      <div className="w-full h-[560px] lg:h-[550px] pb-5 lg:pb-0 flex flex-col-reverse lg:flex-row items-center p-5 gap-5">
 
-        <div className="lg:h-full h-[30%] w-[90%] lg:w-[55%] flex flex-col items-center justify-center gap-5 mt-10 lg:mt-0">
+        <div className="lg:h-full h-[30%] w-[90%] lg:w-[55%] flex flex-col items-center justify-center gap-5 my-5 lg:my-0">
 
           <h1 className=" text-xl lg:text-2xl text-white">Apps for Wearables</h1>
           <p className="text-white/80 text-sm text-center w-[80%]">We build lightweight, fast, and intuitive smartwatch applications designed for quick interactions, real-time data, and seamless performance on wearable devices.</p>
