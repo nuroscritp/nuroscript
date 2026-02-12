@@ -6,25 +6,25 @@ export default function Home() {
   return (
     <>
 
-      <div className="w-full h-[600px] px-30 flex gap-5 items-center">
+      <div className="w-full h-[300px] lg:h-[600px] px-10 lg:px-30 flex flex-col lg:flex-row gap-5 items-center">
 
-        <div className="flex flex-col gap-5 w-[50%] ">
-          <h1 className="font-medium text-4xl bg-gradient-to-r from-purple-500 to-blue-500 bg-clip-text text-transparent">
+        <div className="flex flex-col gap-5 w-full mt-10 lg:w-[50%] ">
+          <h1 className="font-medium text-2xl lg:text-4xl bg-gradient-to-r from-purple-500 to-blue-500 bg-clip-text text-transparent">
             We build modern web & mobile apps
           </h1>
-          <p className="text-white/80">nuroscript designs and develops high-performance digital products for startups and growing businesses.</p>
+          <p className="text-white/80 text-sm lg:text-base">nuroscript designs and develops high-performance digital products for startups and growing businesses.</p>
           <div className=" mt-6 flex items-center gap-5">
 
             <Link
               href="/contact"
-              className="px-5 py-1.5 border-2 border-white bg-white text-black rounded-lg hover:bg-[#4f4f4f] hover:text-white hover:border-[#4f4f4f] cursor-pointer"
+              className="text-sm lg:text-base px-3.5 lg:px-5 py-1.5 border-2 border-white bg-white text-black rounded-lg hover:bg-[#4f4f4f] hover:text-white hover:border-[#4f4f4f] cursor-pointer"
             >
               Get in touch
             </Link>
 
             <Link
               href="/work"
-              className="px-5 py-1.5 border-2 border-white rounded-lg text-white hover:bg-[#4f4f4f] hover:border-[#4f4f4f] cursor-pointer"
+              className="text-sm lg:text-base px-3.5 lg:px-5 py-1.5 border-2 border-white rounded-lg text-white hover:bg-[#4f4f4f] hover:border-[#4f4f4f] cursor-pointer"
             >
               View our work
             </Link>
@@ -32,7 +32,7 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="relative w-[50%] h-full">
+        <div className="relative w-[50%] h-full hidden lg:block">
           <Image
             src="/mac.png"
             alt="Hero image"
@@ -69,9 +69,9 @@ export default function Home() {
 
       </div>
 
-      <div className="w-full h-[550px] flex items-center p-5 gap-5 bg-[#131313]">
+      <div className="w-full h-[550px] flex flex-col lg:flex-row items-center p-5 gap-5 bg-[#131313]">
 
-        <div className="h-full w-[45%] relative">
+        <div className="h-full w-[90%] lg:w-[45%] relative">
 
           <Image
             src="/girlwal.png"
@@ -84,9 +84,9 @@ export default function Home() {
         </div>
 
 
-        <div className="h-full w-[55%] flex flex-col items-center justify-center gap-5">
+        <div className="h-full w-[90%] lg:w-[55%] flex flex-col items-center justify-center gap-5">
 
-          <h1 className="text-2xl text-white">Powerful Web Applications</h1>
+          <h1 className=" text-xl lg:text-2xl text-white">Powerful Web Applications</h1>
           <p className="text-white/80 text-sm text-center w-[80%]">We design and develop fast, secure, and scalable web applications tailored to your business goals. From clean user interfaces to robust backend systems, every detail is crafted for performance and long-term growth.</p>
 
         </div>
