@@ -93,7 +93,7 @@ export default function Home() {
 
       <div className="w-full h-[550px] flex flex-col lg:flex-row items-center p-5 lg:gap-5 bg-[#131313]">
 
-        <div className="h-[60%] lg:h-[90%] w-[95%] lg:w-[45%] relative my-5 lg:my-0">
+        <div className="h-[70%] lg:h-[90%] w-[95%] lg:w-[45%] relative">
 
           <Image
             src="/Gaming.png"
@@ -106,7 +106,7 @@ export default function Home() {
         </div>
 
 
-        <div className="h-[40%] lg:h-full w-[90%] lg:w-[55%] flex flex-col items-center justify-center gap-5">
+        <div className="h-[30%] lg:h-full w-[90%] lg:w-[55%] flex flex-col items-center justify-center gap-5">
 
           <h1 className=" text-xl lg:text-2xl text-white">Next-Gen Tablet Games</h1>
           <p className="text-white/80 text-sm text-center w-[80%]">From casual to interactive gameplay, we build tablet games that are visually stunning, responsive, and optimized for performance across all tablet devices.</p>
@@ -114,7 +114,6 @@ export default function Home() {
         </div>
 
       </div>
-
 
       <div className="w-full h-[550px] pb-5 lg:pb-0 flex flex-col-reverse lg:flex-row items-center p-5 gap-5">
 
