@@ -17,7 +17,7 @@ export default function Home() {
 
             <Link
               href="/contact"
-              className="text-sm lg:text-base px-3.5 lg:px-5 py-1.5 border-2 border-white bg-white text-black rounded-lg hover:bg-[#4f4f4f] hover:text-white hover:border-[#4f4f4f] cursor-pointer"
+              className="text-sm lg:text-base px-3.5 lg:px-5 py-1.5 border-2 border-white bg-red-600 text-black rounded-lg hover:bg-[#4f4f4f] hover:text-white hover:border-[#4f4f4f] cursor-pointer"
             >
               Get in touch
             </Link>
