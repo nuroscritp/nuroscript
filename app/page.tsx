@@ -17,7 +17,7 @@ export default function Home() {
 
             <Link
               href="/contact"
-              className="text-sm lg:text-base px-3.5 lg:px-5 py-1.5 border-2 border-white bg-red-600 text-black rounded-lg hover:bg-[#4f4f4f] hover:text-white hover:border-[#4f4f4f] cursor-pointer"
+              className="text-sm lg:text-base px-3.5 lg:px-5 py-1.5 border-2 border-white bg-white text-black rounded-lg hover:bg-[#4f4f4f] hover:text-white hover:border-[#4f4f4f] cursor-pointer"
             >
               Get in touch
             </Link>
@@ -118,7 +118,7 @@ export default function Home() {
 
       <div className="w-full h-[550px] pb-5 lg:pb-0 flex flex-col-reverse lg:flex-row items-center p-5 gap-5">
 
-        <div className="h-full w-[90%] lg:w-[55%] flex flex-col items-center justify-center gap-5">
+        <div className="h-full w-[90%] lg:w-[55%] flex flex-col text-center items-center justify-center gap-5">
 
           <h1 className=" text-xl lg:text-2xl text-white">Engaging Mobile Game Development</h1>
           <p className="text-white/80 text-sm text-center w-[80%]">We create high-quality mobile games with smooth gameplay, eye-catching visuals, and optimized performance. Built for Android and iOS to keep players engaged and coming back.</p>
